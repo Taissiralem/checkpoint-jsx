@@ -32,7 +32,7 @@ const App = () => {
       </Card>
       <br />
       <p>
-        Hello, {name || "there !"}{" "}
+        Hello there, {name || "there !"}
         {name && <img src={product.img} width="50px" />}
       </p>
     </div>
